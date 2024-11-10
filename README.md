@@ -21,14 +21,20 @@ This study develops and validates an evaluation framework for mental health chat
 9. `Safety_Benchmark_Mental Health -Sheet1new.csv` - Contains the benchmark title, situation, question, and ideal response.
 10. `Safety_Benchmark_Mental Health-ChatGPT 3.5.csv` - Stores GPT-3.5-turbo's answers to the benchmark questions.
 11. `Results.xlsx` - Compiled final results for all evaluation methods.
+12. `requirements.txt` - Contains requirements needed to run the codes.
 
 ## Setup and Running
 
 ### Requirements
 
 - Python 3.x
-- Libraries: numpy, pandas, matplotlib, scipy
+- Libraries: the list of requirements can be found in `requirements.txt`
 
+To install dependencies please run the following in your commandline:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Citation
 
